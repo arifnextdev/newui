@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.p-c {
+    color: #FFAD03;
+
+}
+
+.bp-c {
+    background-color: #FFAD03;
+}
+
+.s-c {
+    color: white';
+}

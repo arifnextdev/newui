@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <title>ui</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  </head>
+  <body class="">
+    <main>
+      <section class="px-3 bg-gray-200 flex justify-between items-center py-1">
+        <ion-icon name="chevron-back-outline" class="text-xl"></ion-icon>
+        <h3 class="text-lg font-bold">Withdrawal</h3>
+        <span></span>
+      </section>
+
+      <section class="px-5 mt-3">
+        <div
+          class="bg-gray-200 flex flex-col justify-center items-center py-5 rounded-xl">
+          <p class="text-black/50 text-xl font-semibold">Current Blance</p>
+          <h3 class="text-3xl font-bold">$433.54</h3>
+        </div>
+      </section>
+
+      <section class="px-5 mt-3 flex flex-col gap-2.5 font-semibold">
+        <div class="bg-gray-200 px-3 py-3 rounded-xl">
+          <label for="amount">$:</label>
+          <input
+            type="number"
+            class="outline-none border-none bg-transparent"
+            placeholder="Withdrawal Amount" />
+        </div>
+        <div class="bg-gray-200 px-3 py-3 rounded-xl">
+          <label for="amount">Realname:</label>
+          <input
+            type="text"
+            class="outline-none border-none bg-transparent"
+            placeholder="Ariful Islam" />
+        </div>
+        <div class="bg-gray-200 px-3 py-3 rounded-xl">
+          <label for="amount">Account:</label>
+          <input
+            type="number"
+            class="outline-none border-none bg-transparent"
+            placeholder="01......." />
+        </div>
+
+        <button class="bp-c rounded-xl py-3 px-3 text-whtie font-bold">
+          Withdrawal Now
+        </button>
+      </section>
+
+      <section
+        class="mt-3 px-3 flex flex-col gap-2.5 font-medium text-md tracking-normal">
+        <p>Important notice for withdrawal:</p>
+        <p>
+          1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+          omnis!
+        </p>
+        <p>
+          2. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Consequuntur, voluptas!
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <title>ui</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  </head>
+  <body class="">
+    <main>
+      <section class="px-3 bg-gray-200 flex justify-between items-center py-1">
+        <ion-icon name="chevron-back-outline" class="text-xl"></ion-icon>
+        <h3 class="text-lg font-bold">Withdrawal Record</h3>
+        <span></span>
+      </section>
+
+      <section class="px-5 mt-3 overflow-x-auto">
+        <div class="flex gap-3 text-xs font-semibold overflow-x-auto w-full">
+          <div class="flex-none">
+            <h5 class="border-b-[2px] border-black pb-1 font-bold">All</h5>
+          </div>
+          <div class="flex-none">
+            <h5 class=" ">Withdrawai in progress</h5>
+          </div>
+          <div class="flex-none">
+            <h5 class="">Payment in progress</h5>
+          </div>
+          <div class="flex-none">
+            <h5 class="">Success</h5>
+          </div>
+        </div>
+      </section>
+
+      <div class="px-5 flex gap-5 py-3 text-md font-semibold">
+        <p>Failed</p>
+        <p>Rejected</p>
+      </div>
+
+      <section class="px-5 mt-3">
+        <div class="bg-gray-200 py-3 px-5 flex gap-5 rounded-xl">
+          <div class="flex flex-col gap-1.5">
+            <h2 class="text-black font-bold text-xl">Bank Card</h2>
+            <h3 class="text-lg font-semibold">T23923484342342</h3>
+            <p class="text-sm text-black/50">
+              Amount recevied: <span>333.00</span>
+            </p>
+            <p class="text-sm text-black/50">2023/02/02 11:18:17</p>
+          </div>
+          <div class="flex flex-col justify-between py-3 items-center mx-auto">
+            <h3 class="text-2xl font-bold p-c">8000.00</h3>
+            <p class="text-green-400 text-lg font-semibold">Success</p>
+          </div>
+        </div>
+      </section>
+
+      <p class="pt-5 text-center text-black/50">NO more data</p>
+    </main>
+  </body>
+</html>
